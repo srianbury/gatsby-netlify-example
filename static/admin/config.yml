@@ -2,6 +2,9 @@ backend:
   name: github
   repo: srianbury/gatsby-netlify-example
 
+media_folder: content/assets
+public_folder: ../assets
+
 collections:
   - name: blog
     label: Blog
@@ -12,6 +15,3 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
-    
-media_folder: content/assets
-public_folder: ../assets
