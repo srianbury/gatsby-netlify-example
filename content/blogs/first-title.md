@@ -4,6 +4,7 @@ title: first title
 description: this is the first blog descrition
 ---
 heres an image for you
-![lonely-ghost](../assets/ghost_logo.png "lonely ghost")
+
+![ghosty](../assets/ghost_logo.png "ghosty")
 
 ### heres some markdown
