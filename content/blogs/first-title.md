@@ -6,8 +6,6 @@ description: this is the first blog descrition
 
 ## I GOT THE IMAGES WORKING!!!
 
-![stanley](../assets/test.jpg)
-
-![stanley](../assets/test.jpg)
+![stanley](../assets/test.jpg "stanley")
 
 ![ghosty](../assets/ghost_logo.png "ghosty")
