@@ -6,7 +6,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     actions.createNodeField({
       node,
       name: "slug",
-      value: `/blog${createFilePath({ node, getNode })}`,
+      value: `/blog${createFilePath({
+        node,
+        getNode,
+        basePath: "content/blogs",
+      })}`,
     })
   }
 }
