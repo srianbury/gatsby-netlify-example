@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 
 const Login = () => (
   <Layout>
-    <div data-netlify-identity-button>Login with Netlify Identity</div>
+    <div data-netlify-identity-menu></div>
   </Layout>
 )
 
